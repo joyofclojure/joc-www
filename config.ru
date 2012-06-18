@@ -1,5 +1,5 @@
 use Rack::Static, 
-  :urls => ["/stylesheets", "/images"],
+  :urls => ["/wp-content/themes/minimatica/", "/wp-content/themes/minimatica/images"],
   :root => "public"
 
 run lambda { |env|
