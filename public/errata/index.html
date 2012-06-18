@@ -1,0 +1,841 @@
+<!DOCTYPE html><!-- HTML5, for the win! -->
+<html dir="ltr" lang="en-US">
+<head>
+<base href="http://joyofclojure.com" />
+
+<meta charset="UTF-8" />
+<title>  Errata &#124; The Joy of Clojure</title>
+
+
+
+
+
+<link rel='stylesheet' id='minimatica-css'  href='http://joyofclojure.com/wp-content/themes/minimatica/style.css?ver=1.0.1' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='minimatica-ie-css'  href='http://joyofclojure.com/wp-content/themes/minimatica/styles/ie.css?ver=1.0' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://joyofclojure.com/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://joyofclojure.com/wp-content/themes/minimatica/scripts/kwicks.js?ver=1.5.1'></script>
+<script type='text/javascript' src='http://joyofclojure.com/wp-includes/js/comment-reply.js?ver=3.4'></script>
+<script type='text/javascript' src='http://joyofclojure.com/wp-content/themes/minimatica/scripts/minimatica.js?ver=1.0'></script>
+
+ 
+<link rel='next' title='Reviews' href='http://joyofclojure.com/reviews/' />
+
+<link rel='canonical' href='http://joyofclojure.com/errata/' />
+<script type="text/javascript">
+/* <![CDATA[ */
+	jQuery().ready(function() {
+		jQuery('#nav-slider a').live('click', function(e){
+			e.preventDefault();
+			var link = jQuery(this).attr('href');
+			jQuery('#slider').html('<img src="http://joyofclojure.com/wp-content/themes/minimatica/images/loader.gif" style="display:block; margin:173px auto" />');
+			jQuery('#slider').load(link+' #ajax-content', function(){
+				slide();
+			});
+		});
+			});
+	 
+/* ]]> */
+</script>
+</head>
+
+<body class="page page-id-39 page-template-default">
+	<div id="wrapper" class="hfeed">
+		<header id="header" role="banner">
+						<div id="site-title"><a href="http://joyofclojure.com" title="The Joy of Clojure" rel="home">The Joy of Clojure</a></div>
+		</header><!-- #header --> 
+ 	<div class="title-container">
+		<h1 class="entry-title">Errata</h1>
+	</div><!-- .title-container -->
+	<div id="container">
+		<article id="post-39" class="post-39 page type-page status-publish hentry">
+			<div id="content">
+				<section class="entry-content">
+					<p>Maybe this book is perfect? Apparently not <em>quite</em>. We&#8217;ll continue to post errata as it arrives.</p>
+
+<h3>Chapter 1</h3>
+
+<ul>
+<li>Page 17: should be <code>(joy.chess/lookup (</code><strong><code>joy.chess/</code></strong><code>initial-board) "a1")</code></li>
+</ul>
+
+<h3>Chapter 2</h3>
+
+<ul>
+<li>Page 40: should be &#8220;<code>report-ns</code> exists in the <strong><code>joy.ch2</code></strong> namespace&#8221;</li>
+</ul>
+
+<h3>Chapter 3</h3>
+
+<ul>
+<li>Page 51, Section 3.4: should be &#8220;from one to <strong>the</strong> other&#8221;</li>
+<li>Page 52: Regular expressions are covered in <strong>section 4.5, page 73</strong></li>
+</ul>
+
+<h3>Chapter 4</h3>
+
+<ul>
+<li>Page 71, Section 4.4: should be &#8220;when evaluated in the <code>(identical? x</code> <strong><code>y</code></strong><code>)</code> form&#8221;</li>
+</ul>
+
+<h3>Chapter 5</h3>
+
+<ul>
+<li>Page 85, Listing 5.1: The last line of the listing should be:
+
+<ul>
+<li><code>(map #</code><strong><code>(vec</code></strong> <code>(map + yx %)</code><strong><code>)</code></strong> <code>deltas))))</code></li>
+</ul></li>
+</ul>
+
+<h3>Chapter 7</h3>
+
+<ul>
+<li>Page 153: note the errata from page 85 above</li>
+<li>Section 7.4: The A* <code>h</code> function uses a very high weighted value to estimate path cost.  As a result, the examples presented provide estimations that are too pessimistic.</li>
+</ul>
+
+<h3>Chapter 8</h3>
+
+<ul>
+<li>Page 160: quoting was introduced in <strong>section 2.6, page 32</strong></li>
+<li>Page 163: quoting was introduced in <strong>section 2.6, page 32</strong></li>
+</ul>
+
+<h3>Chapter 9</h3>
+
+<ul>
+<li>Page 192: should be <strong><code>(TreeNode. 5 nil nil)</code></strong> <em>(not</em> <code>(TreeNodePlus 5 nil nil)</code><em>)</em></li>
+</ul>
+
+<h3>Chapter 10</h3>
+
+<ul>
+<li>Page 217: the word <code>genclass</code> should be removed from the <code>"Eat Cheetos"</code> example.</li>
+</ul>
+
+<h3>Resources</h3>
+
+<ul>
+<li>Page 317: should be &#8220;<strong>Norvig,</strong> Peter 1998.&#8221;</li>
+</ul>
+
+<p><em>Thanks to everyone who submitted these corrections.</em></p>
+					<div class="clear"></div>
+									</section><!-- .entry-content -->
+				
+<div class="entry-comments">
+
+
+
+
+	<div id="comments">
+		<h3 id="comments-title">33 Responses</h3>
+				<ol class="commentlist">
+			<li class="comment even thread-even depth-1" id="li-comment-3">
+	<article id="comment-3" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/6072379cf6586a564fabfabed3bb283e?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://vijaykiran.com' rel='external nofollow' class='url'>Vijay Kiran</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-3">
+				2011,July.22 at 14:31</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On page 131 (section 7.1.3) the docstring for the functions keys-apply and manip-map is after the args vector. Is it intentional ?</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=3#respond' onclick='return addComment.moveForm("comment-3", "3", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	<ul class='children'>
+<li class="comment byuser comment-author-fogus odd alt depth-2" id="li-comment-4">
+	<article id="comment-4" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/5aa24eee4238e1e964210ed447e8dc91?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://blog.fogus.me' rel='external nofollow' class='url'>fogus</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-4">
+				2011,July.22 at 14:51</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>It was not intentional, but thankfully it doesn&#8217;t break anything. :-)</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=4#respond' onclick='return addComment.moveForm("comment-4", "4", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+</ul>
+</li>
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-14">
+	<article id="comment-14" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/41c5009d3338b6516eb1d8c0a344a4e8?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Bernhard Groll</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-14">
+				2011,August.27 at 18:33</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Page 84, Table 5.1:
+The entry for “If the index is out of range” and “get” should be “Returns ‘not found’ or nil” instead of “Returns nil”.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=14#respond' onclick='return addComment.moveForm("comment-14", "14", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-even depth-1" id="li-comment-15">
+	<article id="comment-15" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/65f765955a0a25d112d33528ae6f811b?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://deftitlenil.com' rel='external nofollow' class='url'>Paul M Bauer</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-15">
+				2011,August.29 at 05:50</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On Page 182, Figure 9.4, the folder &#8220;impl&#8221; should be named &#8220;contracts&#8221;</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=15#respond' onclick='return addComment.moveForm("comment-15", "15", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	<ul class='children'>
+<li class="comment byuser comment-author-fogus even depth-2" id="li-comment-17">
+	<article id="comment-17" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/5aa24eee4238e1e964210ed447e8dc91?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://blog.fogus.me' rel='external nofollow' class='url'>fogus</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-17">
+				2011,September.6 at 15:23</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Thanks!</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=17#respond' onclick='return addComment.moveForm("comment-17", "17", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+</ul>
+</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-33">
+	<article id="comment-33" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/a8329f102b95f599165c3a609479816f?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">artg</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-33">
+				2011,September.25 at 19:39</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>In Listing 5.2 on p. 101 &#8220;when (seq s)&#8221; could just be &#8220;when s&#8221; because (next s) in the recur will be nil if there are no more elements.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=33#respond' onclick='return addComment.moveForm("comment-33", "33", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-34">
+	<article id="comment-34" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/946aeb5ce5f353e02b51ac863ec0c1d4?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Edward Cho</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-34">
+				2011,September.27 at 12:10</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>After the 10.4 and 10.5 listings for joy.gui.socks, it may be helpful to include a (def gui (joy.gui.DynaFrame. &#8220;Socks&#8221;)) with the first REPL snippet on page 250.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=34#respond' onclick='return addComment.moveForm("comment-34", "34", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-35">
+	<article id="comment-35" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/0b3440c419891d9a31b8ced076df6943?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Steve Zhang</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-35">
+				2011,September.28 at 01:07</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Page 303, 13.3  &#8220;The book describes 24 software best practices&#8230;&#8221; should be &#8220;23 software best practices&#8230;&#8221;, since there are only 23 patterns in the GoF book.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=35#respond' onclick='return addComment.moveForm("comment-35", "35", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-37">
+	<article id="comment-37" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/946aeb5ce5f353e02b51ac863ec0c1d4?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Edward Cho</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-37">
+				2011,September.30 at 22:21</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>11.8.1 ppvalues (pg. 301)</p>
+
+<p>The REPL snippet seems to be incorrect. If it only costs as much as the most expensive element calculated, which should be (sleeper 3 :2nd) at ~3000 msecs.</p>
+
+<p>This is my REPL output:
+joy.mutation&gt; (-&gt; (pvs) last time)
+&#8220;Elapsed time: 3000.521 msecs&#8221;
+:3rd</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=37#respond' onclick='return addComment.moveForm("comment-37", "37", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-38">
+	<article id="comment-38" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/946aeb5ce5f353e02b51ac863ec0c1d4?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Edward Cho</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-38">
+				2011,September.30 at 22:43</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>11.9.4 Dynamic scope (pg. 306)</p>
+
+<p>s/with-binding/with-precision/ after the map example.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=38#respond' onclick='return addComment.moveForm("comment-38", "38", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-39">
+	<article id="comment-39" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/a8329f102b95f599165c3a609479816f?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">artg</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-39">
+				2011,October.1 at 17:19</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>At the bottom of p. 128 I had trouble applying the test. I changed the function to
+(defn
+  ^{:test (fn [] (assert (= (join &#8220;,&#8221; [1,2,3]) &#8220;1,3,3&#8243;)))}
+  join
+  [sep s]
+  (apply str (interpose sep s)))</p>
+
+<p>and the test to</p>
+
+<p>(test #&#8217;join)</p>
+
+<p>&#8220;test&#8221; is in clojure.core now</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=39#respond' onclick='return addComment.moveForm("comment-39", "39", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-42">
+	<article id="comment-42" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/59b288f9d5793f1c114f30837ae0ec44?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://yaojingguo.iteye.com' rel='external nofollow' class='url'>Page 4,. unmatched delimiter )</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-42">
+				2011,October.16 at 15:45</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>In the last line, there should be 2 ) instead of 3 ).</p>
+
+<p>(str (nth guys-whole-name 2) &#8220;, &#8221;
+     (nth guys-whole-name 0) &#8221; &#8221;
+     (nth guys-whole-name 1)))</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=42#respond' onclick='return addComment.moveForm("comment-42", "42", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-54">
+	<article id="comment-54" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/eace9ab94454218c9a59c2fc3789375d?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Jason Titus</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-54">
+				2011,October.28 at 03:11</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Page 46, link for more information on Cljr is: <a href="http://github.com/fogus/cljr" rel="nofollow">http://github.com/fogus/cljr</a>.  Looks like it should be <a href="http://github.com/liebke/cljr" rel="nofollow">http://github.com/liebke/cljr</a></p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=54#respond' onclick='return addComment.moveForm("comment-54", "54", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-55">
+	<article id="comment-55" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/59b288f9d5793f1c114f30837ae0ec44?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://yaojingguo.iteye.com' rel='external nofollow' class='url'>Jingguo Yao</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-55">
+				2011,October.30 at 07:02</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On page 140 of Section 7.2, &#8220;(- 1 bearing-num)&#8221; should be &#8220;(- bearing-num 1)&#8221; for the definitions for both bot and mirror-bot.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=55#respond' onclick='return addComment.moveForm("comment-55", "55", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-59">
+	<article id="comment-59" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/2ee7665c8bc0f2aa0431fdc970fbb5c7?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Sean Nilan</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-59">
+				2011,November.12 at 02:07</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On page 223 (print version 2011), I believe that that the &#8220;&gt;&#8221; should be replaced with &#8220;&lt;&#8221; in the code halfway down the page.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=59#respond' onclick='return addComment.moveForm("comment-59", "59", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-67">
+	<article id="comment-67" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/1a0d8e9a22c78570276d7b6778717c20?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://einarwh.posterous.com' rel='external nofollow' class='url'>Einar W. Høst</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-67">
+				2011,November.28 at 21:27</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On page 41, with respect to name clashes: typically the odds decrease as the chances increase.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=67#respond' onclick='return addComment.moveForm("comment-67", "67", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-68">
+	<article id="comment-68" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/2ff8cb412f91bf1419643d83a2cea4c7?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Stefan Hallerstede</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-68">
+				2011,December.1 at 11:40</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On page 41, bottom: should be &#8220;(:refer joy.ch2
+On page 42, top: should be &#8220;(:refer joy.ch2 &#8230;</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=68#respond' onclick='return addComment.moveForm("comment-68", "68", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-69">
+	<article id="comment-69" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/91ab5cfb3883c78c94517851e503cebe?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">artg</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-69">
+				2011,December.2 at 23:55</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On p. 244 I have some questions. You use commute in move-piece which works fine and then change to use commute in update-to-move which does not work properly.  However if you leave move-piece using alter then commute works in update-to-move. Both move-piece and update-to-move are in the same transaction so the transaction seems to work as long as one function uses &#8216;alter&#8217;.  Also it wouldn&#8217;t make sense for the board to change in a different order than the to-move vector even if both showed one k and one K.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=69#respond' onclick='return addComment.moveForm("comment-69", "69", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-70">
+	<article id="comment-70" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/11e0717b37120636599e19dfc789b193?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://www.adrianmouat.com' rel='external nofollow' class='url'>Adrian Mouat</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-70">
+				2011,December.4 at 14:12</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>On page 181, consider changing &#8220;&#8230;for Clojure namespaces and not part of&#8230;&#8221; to &#8220;&#8230;for Clojure namespaces and <em>is</em> not part of&#8230;&#8221;.</p>
+
+<p>On page 178, I find figure 9.1 a bit confusing. I wonder if it originally mirrored a listing that was changed? Should joy.nc/authors be joy.ns/authors? I would like more context for the &#8216;Date prefix as well.</p>
+
+<p>On page 150, the first sentence of the last para doesn&#8217;t seem to agree with the listing. It says: &#8220;From the y-x point [0 0] the cost of travelling 5 right and 5 down given an estimated cost step-cost-est is 9000.&#8221; Should it be &#8220;&#8230; step-cost-est of 900 is 7200&#8243;? Possibly I&#8217;ve just misunderstood what it&#8217;s trying to say though.</p>
+
+<p>Any, great book, best programming book I&#8217;ve read in a long time!</p>
+
+<p>Regards,</p>
+
+<p>Adrian.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=70#respond' onclick='return addComment.moveForm("comment-70", "70", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-85">
+	<article id="comment-85" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/cec71fca5c51c59ee91dee1b7d67f6f6?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Topher</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-85">
+				2012,January.22 at 07:57</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>The last code block of page 41 also incorrectly refers to the namespace &#8220;joy.ch1&#8243;. The &#8220;:refer&#8221; call should be to &#8220;joy.ch2&#8243;.</p>
+
+<p>In the last code block on page 41, &#8220;(:refer joy.ch1)&#8221; should be &#8220;(:refer joy.ch2)&#8221;</p>
+
+<p>It&#8217;s output should be &#8220;The current namespace is joy.yet-another&#8221;, not &#8220;The current namespace is $&#8221;. This is consistent with the output found on page 39 (ie: &#8220;The current namespace is joy.ch2&#8243;).</p>
+
+<p>Also, the next code block (the first on page 42) refers to joy.ch1. &#8220;:refer joy.ch1&#8243; should be &#8220;:refer joy.ch2&#8243;.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=85#respond' onclick='return addComment.moveForm("comment-85", "85", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-even depth-1" id="li-comment-86">
+	<article id="comment-86" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/cec71fca5c51c59ee91dee1b7d67f6f6?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Topher</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-86">
+				2012,January.23 at 05:31</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>There is an extra closing paren in the code block in the middle of page 47. &#8220;guys-whole-name 1)))&#8221; should be &#8220;guys-whole-name 1))&#8221;</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=86#respond' onclick='return addComment.moveForm("comment-86", "86", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-102">
+	<article id="comment-102" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/a49efabe256b4aeac9ef78c6cba9655e?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Jiří Maršík</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-102">
+				2012,February.25 at 07:57</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>In several places of Section 11.2, (board-map #(dosync (deref %)) board) should probably be replaced by (dosync (board-map deref board)).</p>
+
+<p>The former starts a new transaction for retrieving the value of every square of the board, something which has shown to produce inconsistent views of the board when I make each thread do 100x the work they were doing before.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=102#respond' onclick='return addComment.moveForm("comment-102", "102", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	<ul class='children'>
+<li class="comment even depth-2" id="li-comment-103">
+	<article id="comment-103" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/a49efabe256b4aeac9ef78c6cba9655e?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Jiří Maršík</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-103">
+				2012,February.25 at 08:00</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Errata for my errata: By making them do more work, I meant that the threads are still working while I am capturing the various snapshots, not that more iterations leave the board in an inconsistent state after finishing.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=103#respond' onclick='return addComment.moveForm("comment-103", "103", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+</ul>
+</li>
+<li class="comment odd alt thread-even depth-1" id="li-comment-108">
+	<article id="comment-108" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/e773170f04213ddf22f4d440736c0b61?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://blog.founddrama.net' rel='external nofollow' class='url'>Rob Friesel</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-108">
+				2012,March.11 at 13:54</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Page 231, in the footnote: the Groovy operator is <code>?.</code> (not <code>.?</code>).</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=108#respond' onclick='return addComment.moveForm("comment-108", "108", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-109">
+	<article id="comment-109" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/11e0717b37120636599e19dfc789b193?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://www.adrianmouat.com' rel='external nofollow' class='url'>Adrian Mouat</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-109">
+				2012,March.11 at 22:23</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>I&#8217;m a little confused by Fig 11.4 (pg 243) and the main body text. The figure shows what happens to the num-moves ref, but the main body text talks about square references &#8211; did the figure example get out of sync with the text example (or vice versa)?</p>
+
+<p>(It&#8217;s not overly important as both examples make the same point).</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=109#respond' onclick='return addComment.moveForm("comment-109", "109", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-even depth-1" id="li-comment-110">
+	<article id="comment-110" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/11e0717b37120636599e19dfc789b193?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://www.adrianmouat.com' rel='external nofollow' class='url'>Adrian Mouat</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-110">
+				2012,March.11 at 22:35</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Very minor, but in Figure 11.5 pg 244, the figure shows the value a&#8217;, but the text talks about a?.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=110#respond' onclick='return addComment.moveForm("comment-110", "110", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-111">
+	<article id="comment-111" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/11e0717b37120636599e19dfc789b193?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn"><a href='http://www.adrianmouat.com' rel='external nofollow' class='url'>Adrian Mouat</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-111">
+				2012,March.13 at 20:40</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Another extremely minor one: pg 247 includes the text &#8220;growing one step large each time&#8221; &#8211; I guess it should be &#8220;larger&#8221;.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=111#respond' onclick='return addComment.moveForm("comment-111", "111", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-even depth-1" id="li-comment-126">
+	<article id="comment-126" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/024d1da9fad214ca44af8fcc649ebb86?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Jay Vyas</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-126">
+				2012,April.15 at 04:35</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Hi great book . Thanks for the in depth treatment of collections&#8230;</p>
+
+<p>Another error &#8212;&gt;</p>
+
+<p>On Page 89 it sais something akin to :</p>
+
+<p>&#8220;see section 5.5&#8243;</p>
+
+<p><strong>However</strong> the Queues section is in 5.4.1</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=126#respond' onclick='return addComment.moveForm("comment-126", "126", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-127">
+	<article id="comment-127" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/6bc7e44657c4615aa6a316e438475f1b?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Earl Jenkins</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-127">
+				2012,April.16 at 02:32</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Bottom of page 21 chapter 2 on Scalars footnote 1 explains continued coverage of Regex noting section 4.6 but Regex actually begins at  section 4.5</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=127#respond' onclick='return addComment.moveForm("comment-127", "127", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-even depth-1" id="li-comment-137">
+	<article id="comment-137" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/f31e2726fab933e3888f077e0829b361?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Ksheerasagar Akella</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-137">
+				2012,April.24 at 06:19</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Section 2.8.1 (A little pitch and catch)</p>
+
+<p>The try form is inside a pair of square brackets &#8230; looks like a mistake. The same code works fine without them.</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=137#respond' onclick='return addComment.moveForm("comment-137", "137", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-138">
+	<article id="comment-138" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/f31e2726fab933e3888f077e0829b361?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Ksheerasagar Akella</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-138">
+				2012,April.24 at 06:28</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Section 2.9.1 (Creating namespaces using ns)</p>
+
+<p>Last para first line:
+This is because report-ns exists in the joy.ch1 namespace&#8230;</p>
+
+<p>should be changed to joy.ch2</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=138#respond' onclick='return addComment.moveForm("comment-138", "138", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment odd alt thread-even depth-1" id="li-comment-139">
+	<article id="comment-139" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/f31e2726fab933e3888f077e0829b361?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Ksheerasagar Akella</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-139">
+				2012,April.24 at 06:47</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Section 2.9.4 (Creating mappings with :refer)</p>
+
+<p>Second line of code should be (:refer joy.ch2)) instead of (:refer joy.ch1))</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=139#respond' onclick='return addComment.moveForm("comment-139", "139", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+<li class="comment even thread-odd thread-alt depth-1" id="li-comment-143">
+	<article id="comment-143" class="comment-body">
+		<header class="comment-header">
+			<div class="comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/ff7525771142917f56b25d501dca2ee8?s=64&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' />				<cite class="fn">Peter Suter</cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+						<div class="comment-meta commentmetadata"><a href="http://joyofclojure.com/errata/#comment-143">
+				2012,April.30 at 09:44</a>			</div><!-- .comment-meta .commentmetadata -->
+		</header><!-- .comment-header -->
+		<div class="comment-content"><p>Page 110: &#8220;becuase&#8221; should be &#8220;because&#8221;
+Page 127: &#8220;by instead proving&#8221; should be &#8220;by instead providing&#8221;
+Page 127: &#8220;to the return of the function&#8221; should be &#8220;to the return value of the function&#8221;</p>
+</div>
+		<footer class="comment-footer">
+			<div class="reply">
+				<a class='comment-reply-link' href='/errata/?replytocom=143#respond' onclick='return addComment.moveForm("comment-143", "143", "respond", "39")'>Reply</a>			</div><!-- .reply -->
+		</footer><!-- .comment-footer -->
+	</article><!-- #comment-##  -->
+
+	</li>
+		</ol><!-- .commentlist -->
+			</div><!-- #comments -->
+
+
+								<div id="respond">
+				<h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/errata/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://joyofclojure.com/wp-comments-post.php" method="post" id="commentform">
+																										<p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment" class="comment-label">Comment</label><br /><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>												<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='39' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f7e9d249f3" /></p>					</form>
+							</div><!-- #respond -->
+						
+</div><!-- .entry-comments -->			</div><!-- #content -->
+		</article><!-- .post -->
+		
+<div id="sidebar" class="widget-area" role="complementary">
+			<div class="widget widget_search"> 
+<div id="search" class="only-search with-image">
+	<form method="get" id="searchform" action="http://joyofclojure.com">
+		<input type="text" class="field" name="s" id="s"  placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form><!-- #searchform -->
+</div><!-- #search --></div>		<!--		<div class="widget widget_pages"><h2 class="widgettitle">Pages</h2>		<ul>
+			<li class="page_item page-item-48"><a href="http://joyofclojure.com/reviews/">Reviews</a></li>
+<li class="page_item page-item-55"><a href="http://joyofclojure.com/toc/">ToC</a></li>
+<li class="page_item page-item-50"><a href="http://joyofclojure.com/buy-joc/">Buy</a></li>
+<li class="page_item page-item-87"><a href="http://joyofclojure.com/foreword/">Foreword</a></li>
+<li class="page_item page-item-39 current_page_item"><a href="http://joyofclojure.com/errata/">Errata</a></li>
+<li class="page_item page-item-148"><a href="http://joyofclojure.com/more/">More</a></li>
+		</ul>
+		</div>  -->
+	</div><!-- #sidebar -->		<div class="clear"></div>
+	</div><!-- #container -->
+ 		<footer id="footer">
+			
+ 			<nav id="access" role="navigation">
+ 					<div id="primary-nav" class="nav">
+		<ul>
+			<li><a href="http://joyofclojure.com" rel="home">Home</a></li>
+                        <li><a href="http://github.com/joyofclojure/" title="The official JoC source code.">Source</a></li>
+			<li class="page_item page-item-48"><a href="http://joyofclojure.com/reviews/">Reviews</a></li>
+<li class="page_item page-item-55"><a href="http://joyofclojure.com/toc/">ToC</a></li>
+<li class="page_item page-item-50"><a href="http://joyofclojure.com/buy-joc/">Buy</a></li>
+<li class="page_item page-item-87"><a href="http://joyofclojure.com/foreword/">Foreword</a></li>
+<li class="page_item page-item-39 current_page_item"><a href="http://joyofclojure.com/errata/">Errata</a></li>
+<li class="page_item page-item-148"><a href="http://joyofclojure.com/more/">More</a></li>
+		</ul>
+	</div><!-- #primary-nav -->
+				</nav><!-- #access -->
+<!-- Important Links -->
+<br/>
+<a href="http://www.amazon.com/o/asin/1935182641?tag=fogus-20"><img src="http://joyofclojure.com/wp-content/uploads/2011/08/amazon.jpeg"></a>
+<a href="http://drdobbs.com/joltawards/231500080?pgno=4"><img src="http://joyofclojure.com/wp-content/uploads/2011/08/jolt11.png"></a>
+<a href="http://www.amazon.com/o/asin/1935182641?tag=fogus-20"><img src="http://farm8.staticflickr.com/7122/6985918952_4da37a5856_n_d.jpg"></a>
+
+		</footer><!-- #footer -->
+	</div><!-- #wrapper -->
+	<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+try {
+var pageTracker = _gat._getTracker("UA-921112-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

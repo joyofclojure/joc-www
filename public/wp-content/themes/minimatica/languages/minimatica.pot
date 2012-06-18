@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimatica\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-13 02:23+0200\n"
+"PO-Revision-Date: 2011-05-13 02:23+0200\n"
+"Last-Translator: Daniel Tara <contact@onedesigns.com>\n"
+"Language-Team: One Designs <contact@onedesigns.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:12
+msgid "Page not found"
+msgstr ""
+
+#: ../404.php:18
+msgid "The content you were looking for could not be found."
+msgstr ""
+
+#: ../archive.php:19
+msgid "Archive for"
+msgstr ""
+
+#: ../author.php:18
+msgid "Entries by"
+msgstr ""
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:23
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:28
+msgid "One Response"
+msgstr ""
+
+#: ../comments.php:28
+msgid "Responses"
+msgstr ""
+
+#: ../comments.php:31
+#: ../comments.php:41
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:32
+#: ../comments.php:42
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:57
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:67
+msgid "Comment"
+msgstr ""
+
+#: ../content-audio.php:17
+#: ../content-gallery.php:16
+#: ../content-image.php:16
+#: ../content-video.php:6
+#: ../content.php:30
+msgid "Pages"
+msgstr ""
+
+#: ../content-audio.php:22
+#: ../content-gallery.php:21
+#: ../content-image.php:21
+#: ../content-video.php:11
+msgid "Posted by"
+msgstr ""
+
+#: ../content-audio.php:23
+#: ../content-gallery.php:22
+#: ../content-image.php:22
+#: ../content-video.php:12
+#: ../content.php:19
+msgid "on"
+msgstr ""
+
+#: ../content-audio.php:24
+#: ../content-gallery.php:23
+#: ../content-image.php:23
+#: ../content-video.php:13
+#: ../content.php:20
+msgid "Filed under"
+msgstr ""
+
+#: ../content.php:18
+msgid "Written by"
+msgstr ""
+
+#: ../content.php:21
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:160
+#: ../functions.php:173
+msgid "Page"
+msgstr ""
+
+#: ../functions.php:316
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:619
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions.php:622
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:626
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:626
+#: ../functions.php:643
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions.php:643
+msgid "Pingback:"
+msgstr ""
+
+#: ../loop-attachment.php:45
+msgid "Full size is"
+msgstr ""
+
+#: ../loop-attachment.php:46
+msgid "Link to full-size image"
+msgstr ""
+
+#: ../loop-attachment.php:47
+msgid "pixels"
+msgstr ""
+
+#: ../loop.php:25
+msgid "By"
+msgstr ""
+
+#: ../loop.php:34
+msgid "Continue reading"
+msgstr ""
+
+#: ../loop.php:40
+msgid "Older Posts"
+msgstr ""
+
+#: ../loop.php:41
+msgid "Newer Posts"
+msgstr ""
+
+#: ../search.php:12
+msgid "Search Results for"
+msgstr ""
+
+#: ../searchform.php:13
+#: ../searchform.php:14
+msgid "Search"
+msgstr ""
+
+#: ../tag.php:18
+msgid "Entries tagged with"
+msgstr ""
+
+#: ../includes/theme-options.php:50
+#: ../includes/theme-options.php:60
+msgid "Minimatica Theme Options"
+msgstr ""
+
+#: ../includes/theme-options.php:50
+msgid "Theme Options"
+msgstr ""
+
+#: ../includes/theme-options.php:62
+msgid "Theme settings updated successfully"
+msgstr ""
+
+#: ../includes/theme-options.php:67
+msgid "Save Settings"
+msgstr ""
+
+#: ../includes/theme-options.php:68
+msgid "Reset Defaults"
+msgstr ""
+
+#: ../includes/theme-options.php:87
+msgid "Page View Options"
+msgstr ""
+
+#: ../includes/theme-options.php:96
+msgid "Home Page View"
+msgstr ""
+
+#: ../includes/theme-options.php:97
+msgid "Category View"
+msgstr ""
+
+#: ../includes/theme-options.php:98
+msgid "Tag View"
+msgstr ""
+
+#: ../includes/theme-options.php:99
+msgid "Author View"
+msgstr ""
+
+#: ../includes/theme-options.php:100
+msgid "Archive View"
+msgstr ""
+
+#: ../includes/theme-options.php:101
+msgid "Blog Category"
+msgstr ""
+
+#: ../includes/theme-options.php:171
+msgid "--none--"
+msgstr ""
+
+#: ../includes/widgets.php:45
+msgid "Use this widget to list your recent Aside and Link posts"
+msgstr ""
+
+#: ../includes/widgets.php:46
+#: ../includes/widgets.php:79
+msgid "Ephemera"
+msgstr ""
+
+#: ../includes/widgets.php:182
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgets.php:185
+msgid "Number of posts to show:"
+msgstr ""
+

@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+	Clear Floated Elements
+*/
+
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+.clear:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	line-height:0;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+* html .clear {
+	height:1%;
+}
+
+/*
+	Style HTML Tags
+*/
+
+@font-face {
+    font-family: 'Vegur';
+    src: url('fonts/vegur-light.eot');
+    src: url('fonts/vegur-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vegur-light.woff') format('woff'),
+         url('fonts/vegur-light.ttf') format('truetype'),
+         url('fonts/vegur-light.otf') format('opentype'),
+         url('fonts/vegur-light.svg#VegurLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vegur';
+    src: url('fonts/vegur-bold.eot');
+    src: url('fonts/vegur-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vegur-bold.woff') format('woff'),
+         url('fonts/vegur-bold.ttf') format('truetype'),
+         url('fonts/vegur-bold.otf') format('opentype'),
+         url('fonts/vegur-bold.svg#VegurBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vegur';
+    src: url('fonts/vegur-light.eot');
+    src: url('fonts/vegur-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vegur-light.woff') format('woff'),
+         url('fonts/vegur-light.ttf') format('truetype'),
+         url('fonts/vegur-light.otf') format('opentype'),
+         url('fonts/vegur-light.svg#VegurLight') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body #tinymce,
+body .mceContentBody {
+	max-width:700px;
+}
+
+#tinymce * {
+	background:#FFF;
+	color:#000;
+	font-family:"Vegur", sans-serif;
+	font-size:16px;
+	font-weight:lighter;
+	line-height:18px;
+}
+
+#tinymce a:link,
+#tinymce a:visited {
+	color:#21759b;
+	text-decoration:none;
+}
+
+#tinymce a:hover,
+#tinymce a:active {
+	color:#d54e21;
+	text-decoration:underline;
+}
+
+#tinymce h1,
+#tinymce h2,
+#tinymce h3,
+#tinymce h4,
+#tinymce h5,
+#tinymce h6 {
+	margin-bottom:18px;
+	text-transform:uppercase;
+}
+
+#tinymce h1 {
+	font-size:36px;
+	line-height:27px;
+}
+
+#tinymce h2 {
+	font-size:32px;
+	line-height:24px;
+}
+
+#tinymce h3 {
+	font-size:27px;
+	line-height:20px;
+}
+
+#tinymce h4 {
+	font-size:24px;
+}
+
+#tinymce h5 {
+	font-size:20px;
+}
+
+#tinymce h6 {
+	font-size:18px;
+}
+
+#tinymce p {
+	margin-bottom:18px;
+}
+
+#tinymce blockquote {
+	color:#444;
+	font-style:italic;
+	margin:0 30px;
+	padding-left:15px;
+	border-left:#CCC 1px solid;
+}
+
+#tinymce blockquote cite {
+	font-style:normal;
+}
+
+#tinymce blockquote cite:before {
+	content:"- ";
+}
+
+#tinymce table {
+	width:100%;
+	border-collapse:collapse;
+	text-align:center;
+	margin-bottom:16px;
+}
+
+#tinymce table th,
+#tinymce table td {
+	padding:6px 0;
+	border:#CCC 1px solid;
+}
+
+#tinymce table th {
+	background:#EEE;
+	font-weight:bold;
+}
+
+#tinymce dt {
+	font-weight:bold;
+	margin-bottom:16px;
+}
+
+#tinymce dd {
+	margin-left:30px;
+	margin-bottom:16px;
+}
+
+#tinymce ul {
+	list-style-type:disc;
+	margin-left:30px;
+	margin-bottom:16px;
+}
+
+#tinymce ul li {
+	margin-top:4px;
+}
+
+#tinymce ul ul {
+	list-style-type:square;
+	margin-bottom:0;
+}
+
+#tinymce ul ul ul {
+	list-style-type:circle;
+}
+
+#tinymce ol {
+	list-style-type:decimal;
+	margin-left:30px;
+	margin-bottom:16px;
+}
+
+#tinymce ol ol {
+	list-style: upper-alpha;
+	margin-bottom:0
+}
+
+#tinymce ol ol ol {
+	list-style: lower-roman;
+}
+
+#tinymce ol ol ol ol {
+	list-style: lower-alpha;
+}
+
+#tinymce address {
+	font-size:14px;
+	font-style:italic;
+	margin-bottom:16px;
+}
+
+#tinymce code {
+	font-family:Monaco, Consolas, "Lucida Console", "Bitstream Vera Sans Mono", monospace;
+}
+
+#tinymce abbr,
+#tinymce acronym {
+	border-bottom:#999 1px dotted;
+	cursor:help;
+}
+
+#tinymce big {
+	font-size:1.3em;
+}
+
+#tinymce cite,
+#tinymce em {
+	font-style:italic;
+}
+
+#tinymce pre {
+	padding:15px;
+	background:#F5F5F5;
+	border:#CCC 1px dashed;
+	font-family:Monaco, Consolas, "Lucida Console", "Bitstream Vera Sans Mono", monospace;
+	margin-bottom:16px;
+}
+
+#tinymce q {
+	quotes:inherit;
+}
+
+#tinymce q:before {
+	content:open-quote;
+}
+
+#tinymce q:after {
+	content:close-quote;
+}
+
+#tinymce strong {
+	font-weight:bold;
+}
+
+#tinymce sup,
+#tinymce sub {
+	height:0;
+	line-height:1;
+	vertical-align:baseline;
+	position:relative;
+	font-size:10px;
+}
+
+#tinymce sup {
+	bottom:1ex;
+}
+
+#tinymce sub {
+	top:.5ex;
+}
+
+#tinymce img {
+	max-width:700px;
+	height:auto;
+}
+
+/*
+	WordPress Standard Tags
+*/
+
+#tinymce .aligncenter {
+	display:block;
+	margin:15px auto;
+}
+
+#tinymce .alignleft {
+	float:left;
+	margin:15px;
+	margin-left:0;
+}
+
+#tinymce .alignright {
+	float:right;
+	margin:15px;
+	margin-right:0;
+}
+
+#tinymce .wp-caption {
+	background:#F9F9F9;
+	border:#CCC 1px solid;
+	padding:10px 0 0 10px;
+}
+
+#tinymce .wp-caption img {
+	margin-bottom:10px;
+}
+
+#tinymce .wp-caption-text {
+	color:#333;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#tinymce .size-thumbnail {
+	padding:5px;
+	border:#CCC 1px solid;
+	margin-right:15px;
+}
+
+#tinymce .gallery-item img {
+	display:inline-block;
+	padding:5px;
+	border:#CCC 1px solid !important;
+}
+
+#tinymce .gallery-caption{
+	text-align:center;
+}
+
+#tinymce .mceItemNoResize {
+	height:1px;
+}
