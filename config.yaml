@@ -1,0 +1,2 @@
+default_processing_pipeline:
+  Page: erb,tags,maruku,blocks,fragments

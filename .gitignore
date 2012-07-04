@@ -1,0 +1,6 @@
+public
+out
+*.cache
+.DS_Store
+p
+out

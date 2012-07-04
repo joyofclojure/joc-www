@@ -1,0 +1,61 @@
+--- pipeline:erb,tags,blocks,head
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{lang:}">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Unifycle Home</title>
+    <meta name="description" content="Unifycle - a unification library for Clojure"/>
+    <meta name="keywords" content="unification, clojure"/>
+    <meta name="author" content="Fogus"/>
+    <meta name="generator" content="webgen - http://webgen.rubyforge.com/"/>
+    <meta name="robots" content="index,follow,archive"/>
+
+    <link rel="icon" href="http://blog.fogus.me/images/labyrinth.ico" type="image/x-icon"/>
+    <link href="{relocatable: default.css}" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="container"> 
+<div id="title"> 
+  <div class="h1"><h1><span>unifycle</span></h1></div>
+  <div id="intro"> <webgen:block name="content"/> </div> 
+</div> 
+        
+    <div class="titles"><h3><span>example }</span></h3></div> 
+    <div class="section"> <webgen:block name="example"/> </div>
+    
+    <div class="titles"><h3 id="solutions"><span>use }</span></h3></div> 
+    <div class="section"> <webgen:block name="using"/> </div> 
+</div>    
+<!-- end container -->
+
+<span class="version"> <webgen:block name="version"/> </span>
+
+<div id="footer"> 
+    <div id="source"> 
+      <a href="http://github.com/fogus/unifycle"> <h3><span>source</span></h3></a>
+    </div> 
+    <div id="tickets"> 
+      <a href="http://github.com/fogus/unifycle/issues" class="linkage"><h3><span>tickets</span></h3></a>
+    </div>
+    <div id="wiki"> 
+      <a href="http://github.com/fogus/unifycle/wiki" class="linkage"><h3><span>wiki</span></h3></a>
+    </div>
+
+  <span class="copy">©2011-2012 Michael Fogus <br/> Unifycle is released <br/> under the <br/> <a href="http://www.eclipse.org/legal/epl-v10.html">Eclipse Public License</a>.</span> 
+  </div>    
+</div> 
+
+
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+try {
+var pageTracker = _gat._getTracker("UA-921112-2");
+pageTracker._trackPageview();
+} catch(err) {}
+</script> 
+</body>
+</html>
