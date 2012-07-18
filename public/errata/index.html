@@ -1,0 +1,194 @@
+<!DOCTYPE html><!-- HTML5, for the win! -->
+<html dir="ltr" lang="en-US">
+<head>
+  <title>Errata for The Joy of Clojure</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="The Joy of Clojure - bibliography."/>
+  <meta name="keywords" content="book, clojure"/>
+  <meta name="author" content="Fogus"/>
+  <meta name="generator" content="webgen - http://webgen.rubyforge.com/"/>
+  <meta name="robots" content="index,follow,archive"/>
+
+  <link rel="icon" href="http://blog.fogus.me/images/labyrinth.ico" type="image/x-icon"/>
+  <meta charset="UTF-8" />
+
+  <link rel='stylesheet' id='minimatica-css'  href='../default.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='colorbox-css'  href='../styles/colorbox.css' type='text/css' media='all' />
+  <!--[if lte IE 8]>
+  <link rel='stylesheet' id='minimatica-ie-css'  href='../styles/ie.css' type='text/css' media='all' />
+  <![endif]-->
+
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  <script type='text/javascript' src='../js/kwicks.js'></script>
+  <script type='text/javascript' src='../js/minimatica.js'></script>
+  <script type='text/javascript' src='../js/colorbox.js'></script>
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    jQuery().ready(function() {
+      jQuery('#nav-slider a').live('click', function(e){
+  	e.preventDefault();
+  	var link = jQuery(this).attr('href');
+  	jQuery('#slider').html('<img src="../images/loader.gif" style="display:block; margin:173px auto" />');
+  	jQuery('#slider').load(link+' #ajax-content', function(){
+          slide();
+  	});
+      });
+      jQuery('a.colorbox').colorbox({
+  	maxWidth:900,
+  	maxHeight:600
+      });
+    });
+  /* ]]> */
+  </script>
+</head>
+
+<body class="single single-post postid-20 single-format-standard">
+  <div id="wrapper" class="hfeed">
+    <header id="header" role="banner">
+      <div id="site-title"><a href="../index.html" title="The Joy of Clojure" rel="home">The Joy of Clojure</a></div>
+    </header><!-- #header -->
+
+    <div class="title-container">
+      <h1 class="entry-title">Errata for The Joy of Clojure</h1>
+    </div><!-- .title-container -->
+
+    <nav id="access" role="navigation">
+      <div id="primary-nav" class="nav">
+	<ul>
+	  <li><a href="../index.html" rel="home">Home</a></li>
+          <li><a href="http://github.com/joyofclojure/" title="The official JoC source code.">Source</a></li>
+	  <li class="page_item page-item-48"><a href="../reviews/index.html">Reviews</a></li>
+	  <li class="page_item page-item-55"><a href="../toc/index.html">ToC</a></li>
+	  <li class="page_item page-item-50"><a href="../buy-joc/index.html">Buy</a></li>
+	  <li class="page_item page-item-87"><a href="../foreword/index.html">Foreword</a></li>
+	  <li class="page_item page-item-39"><a href="index.html">Errata</a></li>
+	  <li class="page_item page-item-148"><a href="../more/index.html">More</a></li>
+	</ul>
+      </div><!-- #primary-nav -->
+    </nav><!-- #access -->
+
+    <div id="container">
+      <article id="post-20" class="post-20 post type-post status-publish format-standard hentry category-info">
+	<div id="content">
+	  <div class="entry-header">
+	    <br/>
+	    <img width="460" height="247" src="../images/drunk-cloth-460x247.png" class="attachment-single-thumb wp-post-image" alt="bib" title="bib" />
+	    <aside class="entry-meta">
+	      <ul>
+		<li>Created by <a href="http://www.fogus.me">Fogus</a></li>
+		<li>on <time>2011.07.04</time></li>
+		<li>modified on <time>2012.07.16</time></li>
+	      </ul>
+	    </aside><!-- .entry-meta -->
+	    <div class="clear"></div>
+	  </div><!-- .entry-header -->
+
+	  <section class="entry-content">
+	    <p>Maybe this book is perfect? Apparently not <em>quite</em>. We&#8217;ll continue to post errata as it arrives.</p>
+
+<h3 id='chapter_1'>Chapter 1</h3>
+
+<ul>
+<li>Page 17: should be <code>(joy.chess/lookup (</code><strong><code>joy.chess/</code></strong><code>initial-board) &quot;a1&quot;)</code></li>
+</ul>
+
+<h3 id='chapter_2'>Chapter 2</h3>
+
+<ul>
+<li>Page 40: should be &#8221;<code>report-ns</code> exists in the <strong><code>joy.ch2</code></strong> namespace&#8221;</li>
+</ul>
+
+<h3 id='chapter_3'>Chapter 3</h3>
+
+<ul>
+<li>Page 51, Section 3.4: should be &#8220;from one to <strong>the</strong> other&#8221;</li>
+
+<li>Page 52: Regular expressions are covered in <strong>section 4.5, page 73</strong></li>
+</ul>
+
+<h3 id='chapter_4'>Chapter 4</h3>
+
+<ul>
+<li>Page 71, Section 4.4: should be &#8220;when evaluated in the <code>(identical? x</code> <strong><code>y</code></strong><code>)</code> form&#8221;</li>
+</ul>
+
+<h3 id='chapter_5'>Chapter 5</h3>
+
+<ul>
+<li>Page 85, Listing 5.1: The last line of the listing should be:</li>
+
+<li><code>(map #</code><strong><code>(vec</code></strong> <code>(map + yx %)</code><strong><code>)</code></strong> <code> deltas))))</code></li>
+</ul>
+
+<h3 id='chapter_7'>Chapter 7</h3>
+
+<ul>
+<li>Page 153: note the errata from page 85 above</li>
+
+<li>Section 7.4: The A* <code>h</code> function uses a very high weighted value to estimate path cost. As a result, the examples presented provide estimations that are too pessimistic.</li>
+</ul>
+
+<h3 id='chapter_8'>Chapter 8</h3>
+
+<ul>
+<li>Page 160: quoting was introduced in <strong>section 2.6, page 32</strong></li>
+
+<li>Page 163: quoting was introduced in <strong>section 2.6, page 32</strong></li>
+</ul>
+
+<h3 id='chapter_9'>Chapter 9</h3>
+
+<ul>
+<li>Page 192: should be <strong><code>(TreeNode. 5 nil nil)</code></strong> <em>(not</em> <code>(TreeNodePlus 5 nil nil)</code><em>)</em></li>
+</ul>
+
+<h3 id='chapter_10'>Chapter 10</h3>
+
+<ul>
+<li>Page 217: the word <code>genclass</code> should be removed from the <code>&quot;Eat Cheetos&quot;</code> example.</li>
+</ul>
+
+<h3 id='resources'>Resources</h3>
+
+<ul>
+<li>Page 317: should be &#8221;<strong>Norvig,</strong> Peter 1998.&#8221;</li>
+</ul>
+
+<p><em>Thanks to everyone who submitted these corrections.</em></p>
+	    <div class="clear"></div>
+	  </section><!-- .entry-content -->
+	  
+	</div><!-- #content -->		
+      </article><!-- .post -->
+      
+      <div id="sidebar" class="widget-area" role="complementary">
+      </div>
+    </div><!-- #sidebar -->		<div class="clear"></div>
+  </div><!-- #container -->
+  
+  <footer id="footer">
+    <!-- Important Links -->
+    <br/>
+    <a href="http://www.amazon.com/o/asin/1935182641?tag=fogus-20"><img src="../images/amazon.jpg"></a>
+    <a href="http://drdobbs.com/joltawards/231500080?pgno=4"><img src="../images/jolt11.png"></a>
+    <a href="http://www.amazon.com/o/asin/1935182641?tag=fogus-20"><img src="http://farm8.staticflickr.com/7122/6985918952_4da37a5856_n_d.jpg"></a>
+    <a href="http://www.heroku.com"><img src="../images/heroku.jpg"></a>
+    <hr/>
+    <span class="copy">©2011-2012 Michael Fogus and Chris Houser</span> 
+  </footer><!-- #footer -->
+  </div><!-- #wrapper -->
+  
+  <script type="text/javascript"> 
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script> 
+  <script type="text/javascript"> 
+    try {
+      var pageTracker = _gat._getTracker("UA-921112-2");
+      pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>
+

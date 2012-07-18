@@ -1,0 +1,127 @@
+<!DOCTYPE html><!-- HTML5, for the win! -->
+<html dir="ltr" lang="en-US">
+<head>
+  <title>Foreword by Steve Yegge</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="The Joy of Clojure - bibliography."/>
+  <meta name="keywords" content="book, clojure"/>
+  <meta name="author" content="Fogus"/>
+  <meta name="generator" content="webgen - http://webgen.rubyforge.com/"/>
+  <meta name="robots" content="index,follow,archive"/>
+
+  <link rel="icon" href="http://blog.fogus.me/images/labyrinth.ico" type="image/x-icon"/>
+  <meta charset="UTF-8" />
+
+  <link rel='stylesheet' id='minimatica-css'  href='../default.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='colorbox-css'  href='../styles/colorbox.css' type='text/css' media='all' />
+  <!--[if lte IE 8]>
+  <link rel='stylesheet' id='minimatica-ie-css'  href='../styles/ie.css' type='text/css' media='all' />
+  <![endif]-->
+
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  <script type='text/javascript' src='../js/kwicks.js'></script>
+  <script type='text/javascript' src='../js/minimatica.js'></script>
+  <script type='text/javascript' src='../js/colorbox.js'></script>
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    jQuery().ready(function() {
+      jQuery('#nav-slider a').live('click', function(e){
+  	e.preventDefault();
+  	var link = jQuery(this).attr('href');
+  	jQuery('#slider').html('<img src="../images/loader.gif" style="display:block; margin:173px auto" />');
+  	jQuery('#slider').load(link+' #ajax-content', function(){
+          slide();
+  	});
+      });
+      jQuery('a.colorbox').colorbox({
+  	maxWidth:900,
+  	maxHeight:600
+      });
+    });
+  /* ]]> */
+  </script>
+</head>
+
+<body class="single single-post postid-20 single-format-standard">
+  <div id="wrapper" class="hfeed">
+    <header id="header" role="banner">
+      <div id="site-title"><a href="../index.html" title="The Joy of Clojure" rel="home">The Joy of Clojure</a></div>
+    </header><!-- #header -->
+
+    <div class="title-container">
+      <h1 class="entry-title">Foreword by Steve Yegge</h1>
+    </div><!-- .title-container -->
+
+    <nav id="access" role="navigation">
+      <div id="primary-nav" class="nav">
+	<ul>
+	  <li><a href="../index.html" rel="home">Home</a></li>
+          <li><a href="http://github.com/joyofclojure/" title="The official JoC source code.">Source</a></li>
+	  <li class="page_item page-item-48"><a href="../reviews/index.html">Reviews</a></li>
+	  <li class="page_item page-item-55"><a href="../toc/index.html">ToC</a></li>
+	  <li class="page_item page-item-50"><a href="../buy-joc/index.html">Buy</a></li>
+	  <li class="page_item page-item-87"><a href="index.html">Foreword</a></li>
+	  <li class="page_item page-item-39"><a href="../errata/index.html">Errata</a></li>
+	  <li class="page_item page-item-148"><a href="../more/index.html">More</a></li>
+	</ul>
+      </div><!-- #primary-nav -->
+    </nav><!-- #access -->
+
+    <div id="container">
+      <article id="post-20" class="post-20 post type-post status-publish format-standard hentry category-info">
+	<div id="content">
+	  <div class="entry-header">
+	    <br/>
+	    <img width="460" height="247" src="../images/drunk-cloth-460x247.png" class="attachment-single-thumb wp-post-image" alt="bib" title="bib" />
+	    <aside class="entry-meta">
+	      <ul>
+		<li>Created by <a href="http://www.fogus.me">Fogus</a></li>
+		<li>on <time>2011.07.04</time></li>
+		<li>modified on <time>2012.07.16</time></li>
+	      </ul>
+	    </aside><!-- .entry-meta -->
+	    <div class="clear"></div>
+	  </div><!-- .entry-header -->
+
+	  <section class="entry-content">
+	    <p>The authors of this book have taken an ambitious and aggressive approach to teaching Clojure. You know how everyone loves to say they teach using the “drinking from a fire hydrant” method? Well, at times it feels like these guys are trying to shove that fire hydrant right up... let’s just say it’s a place where you don’t normally put a fire hydrant. This isn’t intended as a first book on programming, and it may not be an ideal first book on Clojure either. The authors assume you’re fearless and, importantly, equipped with a search engine. You’ll want to have Google handy as you go through the examples. The authors blaze through many of the classics of both functional programming and industry programming in a whirlwind tour of Clojure that feels at times more like a class-five tropical storm. You’ll learn fast!</p><p>Our industry, the global programming community, is fashion-driven to a degree that would embarrass haute couture designers from New York to Paris. We’re slaves to fashion. Fashion dictates the programming languages people study in school, the languages employers hire for, the languages that get to be in books on shelves. A naive outsider might wonder if the quality of a language matters a little, just a teeny bit at least, but in the real world fashion trumps all.</p><p>So nobody could be more surprised than I that a Lisp dialect has suddenly become fashionable again. Clojure has only been out for three years, but it’s gaining momentum at a rate that we haven’t seen in a new language in decades. And it doesn’t even have a “killer app” yet, in the way that browsers pushed JavaScript into the spotlight, or Rails propelled Ruby. Or maybe the killer app for Clojure is the JVM itself. Everyone’s fed up with the Java language, but understandably we don’t want to abandon our investment in the Java Virtual Machine and its capabilities: the libraries, the configuration, the monitoring, and all the other entirely valid reasons we still use it.</p><p>For those of us using the JVM or .NET, Clojure feels like a minor miracle. It’s an astoundingly high-quality language, sure—in fact, I’m beginning to think it’s the best I’ve ever seen—yet somehow it has still managed to be fashionable. That’s quite a trick. It gives me renewed hope for the overall future of productivity in our industry. We might just dig ourselves out of this hole we’re in and get back to where every project feels like a legacy-free startup, just like it was in the early days of Java.</p><p>There are still open questions about Clojure’s suitability for production shops, especially around the toolchain. That’s normal and expected for a new language. But Clojure shows so much promise, such beautiful and practical design principles, that everyone seems to be jumping in with both feet anyway. I certainly am. I haven’t had this much fun with a new language since Java arrived on the scene 15 years ago. There have been plenty of pretenders to the JVM throne, languages that promised to take the Java platform to unprecedented new levels. But until now, none of them had the right mix of expressiveness, industrial strength, performance, and just plain fun.</p><p>I think maybe it’s the “fun” part that’s helped make Clojure fashionable.</p><p>In some sense, all this was inevitable, I think. Lisp—the notion of writing your code directly in tree form—is an idea that’s discovered time and again. People have tried all sorts of crazy alternatives, writing code in XML or in opaque binary formats or using cumbersome code generators. But their artificial Byzantine empires always fall into disrepair or crush themselves into collapse while Lisp, the road that wanders through time, remains simple, elegant, and pure. All we needed to get back on that road was a modern approach, and Rich Hickey has given it to us in Clojure.</p>
+<p><em>The Joy of Clojure</em> just might help make Clojure as fun for you as it is for us.</p>
+
+<p><a href='http://steve-yegge.blogspot.com'>STEVE YEGGE</a> - GOOGLE</p>
+	    <div class="clear"></div>
+	  </section><!-- .entry-content -->
+	  
+	</div><!-- #content -->		
+      </article><!-- .post -->
+      
+      <div id="sidebar" class="widget-area" role="complementary">
+      </div>
+    </div><!-- #sidebar -->		<div class="clear"></div>
+  </div><!-- #container -->
+  
+  <footer id="footer">
+    <!-- Important Links -->
+    <br/>
+    <a href="http://www.amazon.com/o/asin/1935182641?tag=fogus-20"><img src="../images/amazon.jpg"></a>
+    <a href="http://drdobbs.com/joltawards/231500080?pgno=4"><img src="../images/jolt11.png"></a>
+    <a href="http://www.amazon.com/o/asin/1935182641?tag=fogus-20"><img src="http://farm8.staticflickr.com/7122/6985918952_4da37a5856_n_d.jpg"></a>
+    <a href="http://www.heroku.com"><img src="../images/heroku.jpg"></a>
+    <hr/>
+    <span class="copy">©2011-2012 Michael Fogus and Chris Houser</span> 
+  </footer><!-- #footer -->
+  </div><!-- #wrapper -->
+  
+  <script type="text/javascript"> 
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script> 
+  <script type="text/javascript"> 
+    try {
+      var pageTracker = _gat._getTracker("UA-921112-2");
+      pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>
+
