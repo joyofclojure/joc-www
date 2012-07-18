@@ -3,7 +3,7 @@ use Rack::Static,
   	    "/the-book", "/the-authors", "/the-language", "/bibliography"],
   :root => "public"
 
-@root = File.expand_path(File.dirname(__FILE__))
+@root = File.expand_path(File.dirname(__FILE__)) + "/public"
 
 run Proc.new { |env|
   # Extract the requested path from the request
