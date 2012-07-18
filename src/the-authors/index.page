@@ -1,0 +1,40 @@
+---
+title: About the Authors
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/go-460.jpg
+---
+
+*The Joy of Clojure* was written by Michael Fogus and Chris Houser, two active members of the burgeoning Clojure community and active contributors to the language itself.
+
+<a href="http://old.fogus.me/wp-content/uploads/2011/07/fogus.jpeg"><img class="alignright size-full wp-image-114" title="fogus" src="../images/fogus.jpg" alt="" width="133" height="133" /></a>
+
+Fogus is a member of Clojure/core with experience in distributed simulation, machine vision, and expert systems. He can be found on the Internet at:
+
+- [Twitter](http://twitter.com/fogus)
+- [Send More Paramedics blog](http://blog.fogus.me)
+- [Modus Ponens tumblog](http://fogus.tumblr.com/)
+
+Some of [Fogus' Clojure-related side-projects](https://github.com/fogus/) include:
+
+- [clojure.core.cache](https://github.com/clojure/core.cache)
+- [clojure.core.contracts](https://github.com/clojure/core.cache)
+- [clojure.core.memoize](https://github.com/clojure/core.memoize)
+- [clojure.core.unify](https://github.com/clojure/core.unify)
+- [Marginalia](https://github.com/fogus/marginalia)
+- [Trammel](https://github.com/fogus/trammel)
+
+<a href="http://old.fogus.me/wp-content/uploads/2011/07/chouser.jpeg"><img class="alignleft size-full wp-image-113" title="chouser" src="../images/chouser.jpg" alt="" width="133" height="133" style="margin-right: 3em; margin-bottom: 5em;" /></a>
+
+Chouser is a key contributor to Clojure who has implemented several of its features. He can be found on the Internet at:
+
+- [Twitter](http://twitter.com/chrishouser)
+- [Blog](http://blog.n01se.net)
+
+Some of [Chouser's Clojure-related side-projects](https://github.com/chouser/) include:
+
+- [clojure.data.xml](https://github.com/clojure/data.xml)
+- [clojure.data.finger-tree](https://github.com/clojure/data.finger-tree)
+

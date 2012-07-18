@@ -1,0 +1,47 @@
+---
+title: Table of contents
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/drunk-cloth-460x247.png
+---
+
+*[comprehensive contents available from Manning](http://joyofclojure.com/buy)*
+
+## Front Matter
+##### i. [Foreword](/foreword) by [Steve Yegge](http://steve-yegge.blogspot.com/) <br/>
+##### ii. Acknowledgments <br/>
+##### iii. Introduction <br/>
+##### iv. Notational Conventions <br/>
+##### v. Getting Clojure <br/> 
+##### vi. Road Map <br/>
+
+## Part 1: FOUNDATIONS
+#### 1. Clojure Philosophy
+*[chapter 1 available for free from manning](http://joyofclojure.com/buy)*
+#### 2. Drinking From the Clojure Firehose
+#### 3. Dipping Our Toes Into the Pool
+
+## Part 2. DATA TYPES
+#### 4. On Scalars
+#### 5. Composite Data Types
+*[a draft of chapter 5 available on infoq](http://www.infoq.com/articles/in-depth-look-clojure-collections)*
+
+## Part 3. FUNCTIONAL PROGRAMMING
+#### 6. Being Lazy and Set in Your Ways
+#### 7. Functional Programming
+
+## Part 4. LARGE-SCALE DESIGN
+#### 8. Macros
+#### 9. Combining Data and Code
+*[chapter 9 available for free from manning](http://joyofclojure.com/buy)*
+#### 10. Java.next
+#### 11. Mutation
+
+## Part 5. TANGENTIAL CONSIDERATIONS
+#### 12. Performance
+#### 13. Clojure Changes the Way You Think
+
+## APPENDICES
+#### A. [Annotated Bibliography](../bibliography/index.html)

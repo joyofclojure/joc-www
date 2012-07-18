@@ -1,0 +1,216 @@
+---
+title: Annotated Bibliography
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/bib-460x247.jpg
+---
+
+# Miscellaneous resources
+
+Abadi, Martin, and Luca Cardelli. 1996. [A Theory of Objects](http://www.amazon.com/o/asin/0387947752?tag=fogus-20) New York: Springer. *Although not a mathematical concept, object-oriented programming has obtained rigor with this gem.*
+
+[Abelson, Harold](http://groups.csail.mit.edu/mac/users/hal/hal.html), and [Gerald Jay Sussman](http://groups.csail.mit.edu/mac/users/gjs/). 1988. [“Lisp: A Language for Stratified Design.”](http://dspace.mit.edu/handle/1721.1/6064) AI Memo (MIT) 986.
+
+———. 1996. [Structure and Interpretation of Computer Programs](http://www.amazon.com/o/asin/0070004846?tag=fogus-20) Cambridge, MA: MIT Press. *There is no better book for learning Scheme and the fine art of programming.*
+
+Abiteboul, Serge, Richard Hull, and Victor Vianu. 1995. [Foundations of Databases: The Logical Level](http://www.amazon.com/o/asin/0201537710?tag=fogus-20). Boston: Addison-Wesley. *Clojure’s clojure.set namespace is actually modeled more on the named conjunctive algebra, for which this book provides a great reference.*
+
+Armstrong, Joe. 2007. [Programming Erlang: Software for a Concurrent World](http://www.amazon.com/o/asin/193435600X?tag=fogus-20). Raleigh, NC: Pragmatic Bookshelf. 
+
+———. 2007. [“A History of Erlang.”](http://portal.acm.org/citation.cfm?id=1238850). Proceedings of the Third ACM SIGPLAN Conference on History of Programming Languages. 
+
+Bagwell, Phil. 2001. [Ideal Hash Trees](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.6279). Technical report. Clojure’s persistent data structures owe a lot to Phil Bagwell’s paper.
+
+Baker, Henry. 1993. [“Equal Rights for Functional Objects or, The More Things Change, The More They Are the Same.”](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.23.9999) ACM SIGPLAN OOPS Messenger 4, no. 4. 
+
+Beck, Kent. 2002. [Test Driven Development: By Example.](http://www.amazon.com/o/asin/0321146530?tag=fogus-20). Boston: Addison-Wesley.
+
+Bloch, Joshua. 2008. [Effective Java](http://www.amazon.com/o/asin/0321356683?tag=fogus-20). Upper Saddle River, NJ: Addison-Wesley. *Perhaps the most essential Java book (1/3).*
+
+Boncz, Peter, Zukowski Marcin, and Niels Nes. 2005. [“MonetDB/X100: Hyper-Pipelining Query Execution.”](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.101.7834). Proceedings of the CIDR Conference. *This paper motivated the implementation of chunked sequences.*
+
+Bratko, Ivan. 2000. [PROLOG: Programming for Artificial Intelligence](http://www.amazon.com/o/asin/0321417461?tag=fogus-20). New York: Addison Wesley. *An utterly fantastic book on Prolog.*
+
+Budd, Timothy. 1995. [Multiparadigm Programming in Leda](http://www.amazon.com/o/asin/0201820803?tag=fogus-20). Reading, MA: Addison-Wesley. *This is an expanded discussion of the complexities wrought from a mono-paradigm approach to software development.*
+
+Clinger, William. 1998. [“Proper Tail Recursion and Space Efficiency.”](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.4500). Proceedings of the ACM SIGPLAN 1998 Conference on Programming Language Design and Implementation.
+
+Cormen, Thomas, Charles Leiserson, Ronald Rivest, and Clifford Stein. 2009. [Introduction to Algorithms](http://www.amazon.com/o/asin/0262033844?tag=fogus-20). Cambridge, MA: MIT Press. *This is a great reference on algorithmic complexity and Big-O, and as an added bonus, you could use it to stop a charging rhinoceros.*
+
+Crockford, Douglas. 2008. [JavaScript: The Good Parts](http://www.amazon.com/o/asin/0596517742?tag=fogus-20). Yahoo Press.
+
+Date, C.J. 2009. [SQL and Relational Theory: How to Write Accurate SQL Code](http://www.amazon.com/o/asin/0596523068?tag=fogus-20). Sebastopol, CA: O’Reilly.
+
+Dijkstra, Edsger Wijbe. 1959. [“A Note on Two Problems in Connexion with Graphs.”](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.165.7577) Numerische Mathematik 1, no. 1. *You could change the `h` function in listing 7.9 to `(def dijkstra-estimate-cost (constantly 0))` to conform to the ideal presented in this paper.*
+
+Flanagan, David. 2006. [JavaScript: The Definitive Guide](http://www.amazon.com/o/asin/0596805527?tag=fogus-20). Sebastopol, CA: O’Reilly. 
+
+Forman, Ira, and Nate Forman. 2004. [Java Reflection in Action](http://www.amazon.com/o/asin/1932394184?tag=fogus-20). Greenwich, CT: Manning. *Although reflection provides some meta-level manipulation, it’s quite apart from the notion of functions as data.*
+
+Friedl, Jeffrey. 1997. [Mastering Regular Expressions](http://www.amazon.com/o/asin/0596528124?tag=fogus-20). Sebastopol, CA: O’Reilly.
+
+Friedman, Daniel, Mitchell Wand, and Christopher T. Haynes. 2001. [Essentials of Programming Languages](http://www.amazon.com/o/asin/0262062178?tag=fogus-20). Cambridge, MA: MIT Press.
+
+Gabriel, Richard, and Kent Pitman. 2001. [“Technical Issues of Separation in Function Cells and Value Cells.”](http://www.nhplace.com/kent/Papers/Technical-Issues.html). *This is a more thorough examination of the differences between Lisp-1 and Lisp-2.*
+
+Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. 1995. [Design Patterns: Elements of Reusable Object-Oriented Software.](http://www.amazon.com/o/asin/0201633612?tag=fogus-20). Reading, MA: Addison-Wesley.  *Another essential book for Java programmers (2/3).*
+
+Ghosh, Debasish. 2010. [DSLs in Action](http://www.amazon.com/o/asin/1935182455?tag=fogus-20). Greenwich, CT: Manning. *There is a much finer level of distinction determining what constitutes whole cloth, including that between internal and external DSLs. In this book, we focus on the classical Lisp model of internal DSLs, but DSLs in Action provides a survey of many DSL-creation techniques.*
+
+Glickstein, Bob. 1997. [Writing GNU Emacs Extensions](http://www.amazon.com/o/asin/1565922611?tag=fogus-20). Sebastopol, CA: O’Reilly. 
+
+Goetz, Brian. 2006. [Java Concurrency in Practice](http://www.amazon.com/o/asin/0321349601?tag=fogus-20). Upper Saddle River, NJ: Addison-Wesley. *Why haven’t you read this yet?  Essential for Java and concurrent programmers alike (3/3).*
+
+Goldberg, David. 1991. [“What Every Computer Scientist Should Know About Floating-Point Arithmetic.”](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.22.6768) Computing Surveys (March). *More bug reports are written against the limitations of floating point numbers than anything else. Essential knowledge for all programmers.*
+
+Graham, Paul. 1993. [On Lisp](http://www.amazon.com/o/asin/0130305529?tag=fogus-20). Englewood Cliffs, NJ: Prentice Hall. *Is there any book or any author more influential to the current generation of dynamic programmers than Graham and On Lisp? ([free version also available](http://www.paulgraham.com/onlisp.html)).*
+
+———. 1995. [ANSI Common Lisp](http://www.amazon.com/o/asin/0133708756?tag=fogus-20). Englewood Cliffs, NJ: Prentice Hall.
+
+Gray, Jim, and Andreas Reuter. 1992. [Transaction Processing: Concepts and Techniques](http://www.amazon.com/o/asin/1558601902?tag=fogus-20). San Mateo, CA: Morgan Kaufmann Publishers.
+
+Halloway, Stuart. 2009. [“Clojure is a better Java than Java.”](http://thinkrelevance.com/blog/2009/10/19/the-case-for-clojure.html) Presented at the Greater Atlanta Software Symposium, Atlanta. *The origin of the phrase “Java.next” most likely stems from this talk by Halloway.*
+
+Hart, Peter, Nils Nilsson, and Bertram Raphael. 1968. [“A Formal Basis for the Heuristic Determination of Minimum Cost Paths.”](http://academic.research.microsoft.com/Publication/1269940/a-formal-basis-for-the-heuristic-determination-of-minimum-cost-paths) IEEE Transactions on Systems Science and Cybernetics In Systems Science and Cybernetics 4, no. 2.
+
+Hewitt, Carl, Peter Bishop, and Richard Steiger. 1973. [“A Universal Modular ACTOR Formalism for Artificial Intelligence.”](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.77.7898) Proceedings of the Third International Joint Conference on Artificial Intelligence.
+
+Heinlein, Robert. 1966. [The Moon Is a Harsh Mistress](http://www.amazon.com/o/asin/0312863551?tag=fogus-20). New York: Putnam. *We had considered offering an implementation of Mike as an appendix, but we ran over our page count.*
+
+Herlihy, Maurice, and Nir Shavit. 2008. [The Art of Multiprocessor Programming](http://www.amazon.com/o/asin/0123705916?tag=fogus-20). Amsterdam; Boston: Elsevier/Morgan Kaufmann.
+
+Hickey, Rich. 2009. [“Are We There Yet?”](http://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey) Presented at JVM Languages Summit. *This wonderful presentation made firm the popular view of Rich as Philosopher Programmer.*
+
+Hofstadter, Douglas. 1979. [Gödel, Escher, Bach: An Eternal Golden Braid](http://www.amazon.com/o/asin/0465026567?tag=fogus-20). New York: Basic Books. *See the sections “Classes and Instances,” “The Prototype Principle,” and “The Splitting-off of Instances from Classes” for more detail of the topics in section 9.2.*
+
+Hoyte, Doug. 2008. [Let Over Lambda](http://www.amazon.com/o/asin/1435712757?tag=fogus-20). Lulu.com. *This is an amazing look into the mind-bending power of Common Lisp macros that provided the motivation for the DSLs section of this book. It will blow your mind—in a good way.*
+
+Hudak, Paul. 2000. [The Haskell School of Expression: Learning Functional Programming Through Multimedia](http://www.amazon.com/o/asin/0521644089?tag=fogus-20). New York: Cambridge University Press.
+
+Huet, Gerard. 1997. [“Functional Pearl: The Zipper.”](http://www.mendeley.com/research/functional-pearl-1/) Journal of Functional Programming. 
+
+Hutton, Graham. 1999. [“A Tutorial on the Universality and Expressiveness of fold.”](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.1618) Journal of Functional Programming 9, no. 4.
+
+Kahan, William, and Joseph Darcy. 1998. [“How Java’s Floating-Point Hurts Everyone Everywhere.”](http://www.cs.berkeley.edu/~wkahan/) Presented at the ACM Workshop on Java for High-Performance Network Computing. *This paper provides more information on the cyclopian nightmares awaiting you in Java floating point.*
+
+Keene, Sonya. 1989. [Object-Oriented Programming in Common Lisp: A Programmer’s Guide to CLOS](http://www.amazon.com/o/asin/0201175894?tag=fogus-20). Boston: Addison-Wesley. *The best book on CLOS ever written.*
+
+Knuth, Donald. 1997. [The Art of Computer Programming: Volume 1 - Fundamental Algorithms](http://www.amazon.com/o/asin/0201896834?tag=fogus-20). Reading, MA: Addison-Wesley. *This book goes into exquisite detail about the primary characteristics of FIFO queues and is highly recommended reading.*
+
+———. 1998. [The Art of Computer Programming, Vol. 3: Sorting and Searching](http://www.amazon.com/o/asin/0201896850?tag=fogus-20). Reading, MA: Addison-Wesley. *Running quick-sort on a sorted sequence is an O(n<super>2</super>) operation, which for our implementation in chapter 6 completely defeats its laziness.*
+
+Koenig, Dierk, Andrew Glover, Paul King, Guilaume LaForge, and Jon Skeet. 2007. [Groovy in Action](http://www.amazon.com/o/asin/1932394842?tag=fogus-20). Greenwich, CT: Manning.
+
+Kuki, Hirondo, and William James Cody. 1973. [“A Statistical Study of the Accuracy of Floating Point Number Systems.”](http://academic.research.microsoft.com/Publication/775341/a-statistical-study-of-the-accuracy-of-floating-point-number-systems) Communications of the ACM 1973 16, no. 4.
+
+Laddad, Ramnivas. 2003. [AspectJ in Action: Practical Aspect-Oriented Programming](http://www.amazon.com/o/asin/1930110936?tag=fogus-20). Greenwich, CT: Manning. *We do not do justice to the notion of aspects—so read this instead.*
+
+Martin, Robert. 2002. [Agile Software Development: Principles, Patterns, and Practices](http://www.amazon.com/o/asin/0135974445?tag=fogus-20). Upper Saddle River, NJ: Prentice Hall.
+
+McCarthy, John. 1960. [“Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I.”](http://www-formal.stanford.edu/jmc/recursive.html) Communications of the ACM. *This is the essay that started it all.*
+
+———. 1962. [LISP 1.5 Programmer’s Manual](http://www.amazon.com/o/asin/0262130114?tag=fogus-20). Cambridge, MA: MIT Press. *Lisp had an array type at least as early as 1962. Sadly, this fact is little known.*
+
+McConnell, Steve. 2004. [Code Complete: A Practical Handbook of Software Construction](http://www.amazon.com/o/asin/0735619670?tag=fogus-20). Redmond, WA: Microsoft Press.
+
+Meyer, Bertrand. 1991. [Eiffel: The Language](http://www.amazon.com/o/asin/0132479257?tag=fogus-20). New York: Prentice Hall. *The programming language Eiffel relies heavily on contract-based programming methodologies, a cornerstone element of Fogus’s philosophy of [Apperception-Driven Development](http://bit.ly/defcon).*
+
+———. 2000. [Object-Oriented Software Construction](http://www.amazon.com/o/asin/0136291554?tag=fogus-20). Upper Saddle River, NJ: Prentice Hall.
+
+Michie, Donald. 1968. [“Memo Functions and Machine Learning.”](http://academic.research.microsoft.com/Publication/1290550/memo-functions-and-machine-learning) Nature 218.
+
+Mooers, Calvin, and Peter Deutsch. 1965. [“TRAC, A Text-Handling Language.”](http://academic.research.microsoft.com/Publication/1367080)
+
+Moseley, Ben, and Peter Marks. 2006. [“Out of the Tar Pit.”](http://web.mac.com/ben_moseley/frp/frp.html) Presented at SPA2006.
+
+Mozgovoy, Maxim. 2009. [Algorithms, Languages, Automata, and Compilers: A Practical Approach](http://www.amazon.com/o/asin/0763776270?tag=fogus-20). Sudbury, MA: Jones and Bartlett Publishers.
+
+Noble, James, and Brian Foote. 2003. [“Attack of the Clones.”](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.59.6393) Proceedings of the 2002 Conference on Pattern Languages of Programs 13. *The `clone` function is inspired by this paper.*
+
+Norvig, Peter. 1991. [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp](http://www.amazon.com/o/asin/1558601910?tag=fogus-20). San Francisco: Morgan Kaufman Publishers.
+
+Odersky, Martin, Lex Spoon, and Bill Venners. 2008. [Programming in Scala: A Comprehensive Step-by-step Guide](http://www.amazon.com/o/asin/0981531644?tag=fogus-20). Mountain View, CA: Artima.
+
+Okasaki, Chris. 1996. [“The Role of Lazy Evaluation in Amortized Data Structures.”](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.48.9435) Presented at the International Conference on Functional Programming. *This is a much more thorough discussion of incremental vs. monolithic computation.*
+
+———. 1999. [Purely Functional Datastructures](http://www.amazon.com/o/asin/0521663504?tag=fogus-20). Cambridge University Press. *Chris Okasaki to the rescue again! Clojure’s persistent queue implementation is based on Okasaki’s batched queue from this seminal work.*
+
+Olsen, Russ. 2007. [Design Patterns in Ruby](http://www.amazon.com/o/asin/0321490452?tag=fogus-20). Upper Saddle River, NJ: Addison-Wesley 
+
+Papadimitriou, Christos. 1986. [Theory of Database Concurrency Control](http://www.amazon.com/o/asin/0881750271?tag=fogus-20). New York: Computer Science Press, Inc.
+
+Pierce, Benjamin. 2002. [Types and Programming Languages](http://www.amazon.com/o/asin/0262162091?tag=fogus-20). Cambridge, MA: MIT Press. *Fun fact: Representing numbers using lambda calculus is known as church encoding. The church-encoded number 9 would be represented as `(fn [f] (fn [x] (f (f (f (f (f (f (f (f (f x)))))))))))` in Clojure.*
+
+Raymond, Eric. 2003. [The Art of Unix Programming](http://www.amazon.com/o/asin/0131429019?tag=fogus-20). Reading, MA: Addison-Wesley Professional. 
+
+Rosenberg, Doug, Mark Collins-Cope, and Matt Stephens. 2005. [Agile Development with ICONIX Process: People, Process, and Pragmatism](http://www.amazon.com/o/asin/1590594649?tag=fogus-20). Berkeley, CA: Apress.
+
+Skeel, Robert. 1992. [“Roundoff Error and the Patriot Missile.”](http://www.cs.utexas.edu/users/downing/papers/) SIAM News 25, no. 4: 11.
+
+Steele, Guy L. 1977. [“Lambda: the Ultimate GOTO.”](http://library.readscheme.org/page1.html) ACM Conference Proceedings.
+
+———. 1990. [Common LISP: The Language](http://www.amazon.com/o/asin/1555580416?tag=fogus-20). Bedford, MA: Digital Press. *This is a very witty book, in addition to being packed with information.*
+
+Steele, Guy L., and Gerald Sussman. 1978. [“The Art of the Interpreter.”](http://library.readscheme.org/page1.html) AI Memo (MIT) 453.
+
+Stewart, Ian. 1995. [Concepts of Modern Mathematics](http://www.amazon.com/o/asin/0486284247?tag=fogus-20). New York: Dover. *These Dover math books are often true gems. It would be great to see an adventurous publisher print a similar series revolving around C.S.-relevant topics—monads, category theory, lambda calculus, and so on.*
+
+Sussman, Gerald, and Guy L. Steele. 1975. [“Scheme: An Interpreter for the Extended Lambda Calculus.”](http://library.readscheme.org/page1.html) Higher-Order and Symbolic Computation 11, no. 4. *This is a discussion of Scheme’s early implementation of lexical closures.*
+
+Symbolics Inc. 1986. [Reference Guide to Symbolics Common Lisp: Language Concepts](http://smbx.org/index.php/index.php?option=com_content&task=view&id=39&Itemid=76). Symbolics Release 7 Doc- ument Set.
+
+Thompson, Simon. 1999. [Haskell: The Craft of Functional Programming](http://www.amazon.com/o/asin/0201342758?tag=fogus-20). Reading, MA: Addison-Wesley. 
+
+Ullman, Jeffrey. 1988. [Principles of Database & Knowledge-Base Systems Vol. 1: Classical Database Systems](http://www.amazon.com/o/asin/0716781581?tag=fogus-20).
+Rockville, MD: Computer Science Press.
+
+Ungar, David, and Randal Smith. 1987. [“SELF: The power of simplicity.”](https://labs.oracle.com/self/papers/self-power.html) Presented at the Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA), Orlando. *The Self programming language is the greatest influence on languages based on prototypal inheritance.*
+
+Van Roy, Peter, and Seif Haridi. 2004. [Concepts, Techniques, and Models of Computer Programming](http://www.amazon.com/o/asin/0262220695?tag=fogus-20). Cambridge, MA: MIT Press.
+
+Wadler, Philip. 1989. [“Theorems for Free!”](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.9875) Presented at the fourth International Conference on Func- tional Programming and Computer Architecture.
+
+Wampler, Dean, and Alex Payne. 2009. [Programming Scala](http://www.amazon.com/o/asin/0596155956?tag=fogus-20). Sebastopol, CA: O’Reilly.
+
+Whitehead, Alfred North. 1929. [Process and Reality: An Essay in Cosmology](http://www.amazon.com/o/asin/0029345707?tag=fogus-20). Cambridge University Press. *For a general overview of Whitehead, see [The Wit And Wisdom of Alfred North Whitehead](http://www.amazon.com/o/asin/1432517473?tag=fogus-20) by A.H. Johnson (Boston, Beacon Press, 1947).*
+
+Williams, Laurie. 2002. [Pair Programming Illuminated](http://www.amazon.com/o/asin/0201745763?tag=fogus-20). Boston: Addison-Wesley Professional. *The limitations of the book format only shadow the idealistic model of pair programming.*
+
+# Online resources
+
+Braithwaite, Reginald. 2007. “Why Why Functional Programming Matters Matters.” <http://weblog.raganwald.com/2007/03/why-why-functional-programming-matters.html>. *This column discusses language-level separation of concerns.*
+
+Clementson, Bill. 2008. “Clojure could be to Concurrency-Oriented Programming what Java was to OOP.” <http://bc.tech.coop/blog/081201.html>. *A much deeper discussion concerning Erlang actors and Clojure agents.*
+
+Dekorte, Steve. Io. <http://iolanguage.com>.
+
+Fogus, Michael. Lithp. <http://github.com/fogus/lithp>.
+
+Fowler, Martin. 2005. “Fluent Interface.” <http://martinfowler.com/bliki/FluentInterface.html>. 
+
+———. 2007. “Mocks Aren’t Stubs.” <http://martinfowler.com/articles/mocksArentStubs.html>.
+
+Graham, Paul. Arc. <http://www.paulgraham.com/arc.html>.
+
+———. 2001. “What Made Lisp Different.” <http://www.paulgraham.com/diff.html>. *As Paul Graham states, “The whole language always available” appears as a theme throughout this book and as a finale in section 13.5.*
+
+Houser, Chris. error-kit API. <http://richhickey.github.com/clojure-contrib/error-kit-api.html>. *The clojure.contrib.error-kit namespace contains an open error system similar to CL conditions that don’t require recompilation when defining new error types.*
+
+Krukow, Karl. 2009. “Understanding Clojure’s PersistentVector Implementation.” <http://blog.higher-order.net/2009/02/01/understanding-clojures-persistentvector-implementation/>. 
+
+Lindholm, Tim, and Frank Yellin. 1999. Java Virtual Machine Specification. <http://java.sun.com/docs/books/jvms/>. 
+
+Norvig, Peter. 1998. “Design Patterns in Dynamic Programming.” <http://norvig.com/design-patterns/>. *The section on design patterns was inspired by this presentation.*
+
+Tarver Mark. 2008. Functional Programming in Qi. <http://www.lambdassociates.org/Book/page000.htm>. *Some programming languages perform partial application automatically when a function is supplied with fewer than the expected number of arguments. One such language is Qi -- a truly elegant language.*
+
+———. 2009. “The Next Lisp: Back to the Future.” <http://www.lambdassociates.org/blog/nextlisp(1).htm>. *The notion of Lisp as a programming language genotype is explored.*
+
+\_why. Shoes. <http://github.com/shoes/shoes>.
+
+Yegge, Steve. 2006. “Execution in the Kingdom of Nouns.” <http://steve-yegge.blogspot.com/2006/03/execution-in-kingdom-of-nouns.html>.
+
+———. 2008. “The Universal Design Pattern.” <http://steve-yegge.blogspot.com/2008/10/universal-design-pattern.html>. *Like many programmers of our generation, we were in many ways inspired and influenced by Steve Yegge’s work—which is why we asked him to write this book’s foreword.*
+

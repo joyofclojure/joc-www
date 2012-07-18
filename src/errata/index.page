@@ -1,0 +1,46 @@
+---
+title: Errata for The Joy of Clojure
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/drunk-cloth-460x247.png
+---
+
+Maybe this book is perfect? Apparently not *quite*. We'll continue to post errata as it arrives.
+
+### Chapter 1
+- Page 17: should be `(joy.chess/lookup (`**`joy.chess/`**`initial-board) "a1")`
+
+### Chapter 2
+- Page 40: should be "`report-ns` exists in the **`joy.ch2`** namespace"
+
+### Chapter 3
+- Page 51, Section 3.4: should be "from one to **the** other"
+- Page 52: Regular expressions are covered in **section 4.5, page 73**
+
+### Chapter 4
+- Page 71, Section 4.4: should be "when evaluated in the `(identical? x` **`y`**`)` form"
+
+### Chapter 5
+- Page 85, Listing 5.1: The last line of the listing should be:
+- `(map #`**`(vec`** `(map + yx %)`**`)`** ` deltas))))`
+  
+### Chapter 7
+- Page 153: note the errata from page 85 above
+- Section 7.4: The A* `h` function uses a very high weighted value to estimate path cost.  As a result, the examples presented provide estimations that are too pessimistic.
+
+### Chapter 8
+- Page 160: quoting was introduced in **section 2.6, page 32**
+- Page 163: quoting was introduced in **section 2.6, page 32**
+
+### Chapter 9
+- Page 192: should be **`(TreeNode. 5 nil nil)`** *(not* `(TreeNodePlus 5 nil nil)`*)*
+
+### Chapter 10
+- Page 217: the word `genclass` should be removed from the `"Eat Cheetos"` example.
+
+### Resources
+- Page 317: should be "**Norvig,** Peter 1998."
+
+*Thanks to everyone who submitted these corrections.*

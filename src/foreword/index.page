@@ -1,0 +1,21 @@
+---
+title: Foreword by Steve Yegge
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/drunk-cloth-460x247.png
+---
+
+<p>The authors of this book have taken an ambitious and aggressive approach to teaching Clojure. You know how everyone loves to say they teach using the “drinking from a fire hydrant” method? Well, at times it feels like these guys are trying to shove that fire hydrant right up... let’s just say it’s a place where you don’t normally put a fire hydrant. This isn’t intended as a first book on programming, and it may not be an ideal first book on Clojure either. The authors assume you’re fearless and, importantly, equipped with a search engine. You’ll want to have Google handy as you go through the examples. The authors blaze through many of the classics of both functional programming and industry programming in a whirlwind tour of Clojure that feels at times more like a class-five tropical storm. You’ll learn fast!</p>
+ <p>Our industry, the global programming community, is fashion-driven to a degree that would embarrass haute couture designers from New York to Paris. We’re slaves to fashion. Fashion dictates the programming languages people study in school, the languages employers hire for, the languages that get to be in books on shelves. A naive outsider might wonder if the quality of a language matters a little, just a teeny bit at least, but in the real world fashion trumps all.</p>
+ <p>So nobody could be more surprised than I that a Lisp dialect has suddenly become fashionable again. Clojure has only been out for three years, but it’s gaining momentum at a rate that we haven’t seen in a new language in decades. And it doesn’t even have a “killer app” yet, in the way that browsers pushed JavaScript into the spotlight, or Rails propelled Ruby. Or maybe the killer app for Clojure is the JVM itself. Everyone’s fed up with the Java language, but understandably we don’t want to abandon our investment in the Java Virtual Machine and its capabilities: the libraries, the configuration, the monitoring, and all the other entirely valid reasons we still use it.</p>
+ <p>For those of us using the JVM or .NET, Clojure feels like a minor miracle. It’s an astoundingly high-quality language, sure—in fact, I’m beginning to think it’s the best I’ve ever seen—yet somehow it has still managed to be fashionable. That’s quite a trick. It gives me renewed hope for the overall future of productivity in our industry. We might just dig ourselves out of this hole we’re in and get back to where every project feels like a legacy-free startup, just like it was in the early days of Java.</p>
+ <p>There are still open questions about Clojure’s suitability for production shops, especially around the toolchain. That’s normal and expected for a new language. But Clojure shows so much promise, such beautiful and practical design principles, that everyone seems to be jumping in with both feet anyway. I certainly am. I haven’t had this much fun with a new language since Java arrived on the scene 15 years ago. There have been plenty of pretenders to the JVM throne, languages that promised to take the Java platform to unprecedented new levels. But until now, none of them had the right mix of expressiveness, industrial strength, performance, and just plain fun.</p>
+ <p>I think maybe it’s the “fun” part that’s helped make Clojure fashionable.</p>
+ <p>In some sense, all this was inevitable, I think. Lisp—the notion of writing your code directly in tree form—is an idea that’s discovered time and again. People have tried all sorts of crazy alternatives, writing code in XML or in opaque binary formats or using cumbersome code generators. But their artificial Byzantine empires always fall into disrepair or crush themselves into collapse while Lisp, the road that wanders through time, remains simple, elegant, and pure. All we needed to get back on that road was a modern approach, and Rich Hickey has given it to us in Clojure.</p>
+
+*The Joy of Clojure* just might help make Clojure as fun for you as it is for us.
+
+[STEVE YEGGE](http://steve-yegge.blogspot.com) - GOOGLE
+

@@ -1,0 +1,25 @@
+---
+title: About The Joy of Clojure
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/drunk-cloth-460x247.png
+---
+
+<a href="../images/joy-of-clojure-cover.jpg"><img src="../images/joy-of-clojure-cover-239x300.jpg" alt="" title="Cover" width="239" height="300" class="alignright size-medium wp-image-158" /></a>
+
+When this book was conceived, our first instinct was to create a comprehensive com- parison between [Clojure](http://clojure.org) and its host language, Java. After further reflection, we reached the conclusion that such an approach would be disingenuous at best, and disastrous at worst. Granted, some points of comparison can’t be avoided, but Java is very different from Clojure and to try and distort one to explain the other would respect neither. Therefore, we decided that a better approach would be to focus on “The Clojure Way” of writing code.
+
+We’ll work hard to guide you through the features and semantics of Clojure to help you build the mental model needed to use the language effectively. Most of the samples in this book are designed to be run in Clojure’s interactive programming environment, commonly known as the Read-Eval-Print Loop, or REPL, an extremely powerful environment for experimentation and rapid prototyping.
+
+By the time you’re done with this book, the Clojure way of thinking about and solv- ing problems will be another comfortable tool in your toolbox. If we succeed, then not only will you be a better Clojure programmer, but you’ll also start seeing your pro- gramming language of choice—be it Java, C#, Python, Ruby, J, or Haskell—in an entirely different light. This reassessment of topics that we often take for granted is essential for personal growth.
+
+This book isn’t a beginner’s guide to Clojure. We start fast and don’t devote much space to establishing a running Clojure environment, although there are many available online resources for use as reference, refresh, or autodidacticism:
+
+- [The official Clojure API docs](http://clojure.org/api)
+- [Community-driven Clojure docs](http://clojuredocs.org)
+- [Guide to Programming in Clojure for Beginners](http://blackstag.com/blog.posting?id=5)
+- [Clojure Koans](https://github.com/functional-koans/clojure-koans)
+- [Clojure Wikibook](http://en.wikibooks.org/wiki/Clojure_Programming)
+

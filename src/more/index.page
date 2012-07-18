@@ -1,0 +1,24 @@
+---
+title: More information
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/drunk-cloth-460x247.png
+---
+
+Many things were cut from *The Joy of Clojure* and may resurface should a second edition ever materialize. Potential topics that may one day make it into the book include:
+
+- [ClojureScript](http://www.github.com/clojure/clojurescript)
+- Tagged literals
+- Logic programming and unification
+- `defrecord` literals
+- The reader
+- Expanded discussion of the lack of design patterns
+- Expanded discussion of parallelism
+- Alternative Clojure implementations
+- Typed Clojure
+- Short-circuiting `reduce`
+- Expanded discussion of `clojure.zip`
+
+... and other topics, yet to be discovered. Lobby for another edition from [Manning Publishing](http://manning.com) if you would like to see these and other awesome topics.

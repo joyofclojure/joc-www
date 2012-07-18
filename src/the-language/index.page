@@ -1,0 +1,25 @@
+---
+title: About Clojure
+created: 2011.07.04
+last_modified: 2012.07.16
+author: Fogus
+author_link: http://www.fogus.me
+image: ../images/clojure-cloth-460.png
+---
+
+[Clojure](http://clojure.org) is a dialect of Lisp supporting[^supp] concurrent software development using functional programming techniques, and like the Lisp described in “Beating the Averages,” provides an environment conducive to agility. Clojure fosters agility in ways that many popular programming languages can’t. Many programming languages are bewitched with most or all of the following:
+
+- Verbosity
+- **Essential** boilerplate
+- A long thought-code-feedback loop
+- Incidental complexity
+- Difficulties in extension
+- Deficiencies in supporting crucial programming paradigms
+
+In contrast, Clojure provides a mixture of power and practicality fostering rapid development cycles. But its benefits don’t stop with its agile nature.
+
+Clojure provides a unique mix of functional programming and host symbiosis—an embrace of and direct support for its host platform, in this case the Java Virtual Machine. Additionally, the simplification and often elimination of the complexities involved in coordinated state change have positioned Clojure as an important lan- guage moving forward. All software developers must eventually address these prob- lems as a matter of course, and the study, understanding, and eventual utilization of Clojure is an essential path toward conquering them. From topics such as software transactional memory to laziness to immutability, this book will guide you on your way to understanding the **“why”** of Clojure, in addition to the **“how.”**
+
+[^supp]: Clojure's primary goal is not concurrent programming, instead its sane model for managing state provides an environment where sane concurrency is possible.
+
+Clojure information, source, and official documentation is found at <http://clojure.org>.
