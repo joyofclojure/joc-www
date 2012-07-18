@@ -1,6 +1,5 @@
 use Rack::Static, 
-  :urls => ["/default.css", "/fonts", "/js", "/styles", "/images",
-  	    "/the-book", "/the-authors", "/the-language", "/bibliography"],
+  :urls => ["/default.css", "/fonts", "/js", "/styles", "/images"],
   :root => "public"
 
 @root = File.expand_path(File.dirname(__FILE__)) + "/public"
