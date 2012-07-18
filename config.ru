@@ -1,16 +1,21 @@
 use Rack::Static, 
   :urls => ["/default.css", "/fonts", "/js", "/styles", "/images",
-  	    "/the-book/index.html", "/the-authors/index.html", "/the-language/index.html", "/bibliography/index.html"],
+  	    "/the-book", "/the-authors", "/the-language", "/bibliography"],
   :root => "public"
 
-run lambda { |env|
-  [
-    200, 
-    {
-      'Content-Type'  => 'text/html', 
-      'Cache-Control' => 'public, max-age=86400' 
-    },
-    File.open('public/index.html', File::RDONLY)
-  ]
+@root = File.expand_path(File.dirname(__FILE__))
+
+run Proc.new { |env|
+  # Extract the requested path from the request
+  path = Rack::Utils.unescape(env['PATH_INFO'])
+  index_file = @root + "#{path}/index.html"
+
+  if File.exists?(index_file)
+    # Return the index
+    [200, {'Content-Type' => 'text/html'}, File.read(index_file)]
+  else
+    # Pass the request to the directory app
+    Rack::Directory.new(@root).call(env)
+  end
 }
 
