@@ -16,6 +16,8 @@ run Proc.new { |env|
     [301, {'Location' => 'http://incanter.org/downloads/cljr-installer.jar'}, ['Redirecting']]
   elsif path =~ /src$/
     [301, {'Location' => 'http://github.com/joyofclojure/book-source'}, ['Redirecting']]
+  elsif path =~ /hello$/
+    [200, {'Content-Type' => 'text/plain'}, 'Hello Cleveland']
   else
     # Pass the request to the directory app
     Rack::Directory.new(@root).call(env)
